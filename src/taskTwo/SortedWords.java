@@ -13,7 +13,7 @@ public class SortedWords {
     }
 
     public void sortedString() {
-        Stream<String> names = Stream.of("1. Viva", "2. Vlad", "3. Nadia", "4. Saliva")
+        Stream<String> names = Stream.of("a","b","c","d","f")
                 .map(String::toUpperCase)
                 .sorted(Collections.reverseOrder());
 
